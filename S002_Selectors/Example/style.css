@@ -1,0 +1,19 @@
+* {
+    color: blue;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.title {
+    text-align: center;
+}
+
+#id-test {
+    text-transform: uppercase;
+}
+
+h2[draggable="true"] {
+    text-transform: lowercase;
+}
