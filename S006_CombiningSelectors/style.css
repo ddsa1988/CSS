@@ -1,0 +1,25 @@
+/* Grouping selectors */
+h1,
+h2 {
+    color: blueviolet;
+}
+
+/* Parent and child selector - One level difference*/
+.box > p {
+    color: firebrick;
+}
+
+/* Ancestor and descendant selector - Multi-level difference */
+.box li {
+    color: blue;
+}
+
+/* Chaining selectors */
+li.done {
+    color: seagreen;
+}
+
+/* Combining combiners selectors */
+ul p.done {
+    font-size: 0.5rem;
+}
