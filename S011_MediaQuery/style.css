@@ -1,0 +1,31 @@
+.box {
+    background-color: aquamarine;
+    width: 500px;
+    height: 500px;
+}
+
+@media (min-width: 319px) and (max-width: 480px) {
+    .box {
+        background-color: lightsalmon;
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1200px) {
+    .box {
+        background-color: powderblue;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1600px) {
+    .box {
+        background-color: limegreen;
+    }
+}
+
+@media (min-width: 1601px) {
+    .box {
+        background-color: seagreen;
+    }
+}
