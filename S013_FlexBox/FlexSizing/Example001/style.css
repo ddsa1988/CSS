@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+.item {
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+.home {
+    background-color: aqua;
+}
+
+.about {
+    background-color: cadetblue;
+}
+
+.contact {
+    background-color: aquamarine;
+}
+
+.text {
+    background-color: darkturquoise;
+}
